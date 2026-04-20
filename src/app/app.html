@@ -1,9 +1,19 @@
-<div class="p-3">
-  <nav class="">
-    <button routerLink="/home" class="px-4 py-2 text-blue-600 border border-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors">Home</button>
-    <button routerLink="/products" class="ms-1 px-4 py-2 text-blue-600 border border-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors">Products</button>
+<div class="min-h-screen bg-gray-50 font-sans text-gray-900">
+  <nav class="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex items-center space-x-8">
+          <span routerLink="/" class="text-xl font-bold text-gray-900 tracking-tight">Angular<span class="text-blue-600">Pro</span></span>
+          <div class="flex space-x-4">
+            <button routerLink="/home" routerLinkActive="bg-blue-50 text-blue-700" class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 px-4 py-2 rounded-md text-sm font-medium transition-all">Home</button>
+            <button routerLink="/products" routerLinkActive="bg-blue-50 text-blue-700" class="text-gray-600 hover:bg-gray-100 hover:text-gray-900 px-4 py-2 rounded-md text-sm font-medium transition-all">Products</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </nav>
-  <router-outlet>
 
-  </router-outlet>
+  <main class="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
+    <router-outlet></router-outlet>
+  </main>
 </div>
