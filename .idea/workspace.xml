@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5f91f5c7-227f-4b3c-a79d-087c085be163" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761438590627</updated>
       <workItem from="1761438591742" duration="480000" />
-      <workItem from="1776672636831" duration="5245000" />
+      <workItem from="1776672636831" duration="7311000" />
     </task>
     <servers />
   </component>
